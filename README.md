@@ -48,7 +48,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Theme Toggle
 #### [ x ] Home Page
 #### [ x ] Dashboard Page
-#### [   ] Word Cloud
+#### [ x ] Word Cloud
 #### [   ] Create Quiz Form
 #### [   ] Game Logic Data Modelling
 #### [   ] OpenAI GPT Setup
