@@ -49,7 +49,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Home Page
 #### [ x ] Dashboard Page
 #### [ x ] Word Cloud
-#### [   ] Create Quiz Form
+#### [ x ] Create Quiz Form
 #### [   ] Game Logic Data Modelling
 #### [   ] OpenAI GPT Setup
 #### [   ] Generate Questions Endpoint
