@@ -42,8 +42,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Setup Project
 #### [ x ] Setup Shadcn
 #### [ x ] Setup Database & Prisma
-#### [   ] Setup NextAuth
-#### [   ] Setup Providers
+#### [ x ] Setup NextAuth
+#### [ x ] Setup Providers
 #### [   ] Setup Navbar
 #### [   ] Theme Toggle
 #### [   ] Home Page
