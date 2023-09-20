@@ -45,7 +45,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Setup NextAuth
 #### [ x ] Setup Providers
 #### [ x ] Setup Navbar
-#### [   ] Theme Toggle
+#### [ x ] Theme Toggle
 #### [   ] Home Page
 #### [   ] Dashboard Page
 #### [   ] Word Cloud
