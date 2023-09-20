@@ -46,8 +46,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Setup Providers
 #### [ x ] Setup Navbar
 #### [ x ] Theme Toggle
-#### [   ] Home Page
-#### [   ] Dashboard Page
+#### [ x ] Home Page
+#### [ x ] Dashboard Page
 #### [   ] Word Cloud
 #### [   ] Create Quiz Form
 #### [   ] Game Logic Data Modelling
