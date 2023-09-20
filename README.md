@@ -44,7 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Setup Database & Prisma
 #### [ x ] Setup NextAuth
 #### [ x ] Setup Providers
-#### [   ] Setup Navbar
+#### [ x ] Setup Navbar
 #### [   ] Theme Toggle
 #### [   ] Home Page
 #### [   ] Dashboard Page
