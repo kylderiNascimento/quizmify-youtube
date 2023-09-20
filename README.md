@@ -34,3 +34,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+## Tasks
+#### [ x ] Intro & Demo
+#### [ x ] Setup Project
+#### [ x ] Setup Shadcn
+#### [ x ] Setup Database & Prisma
+#### [   ] Setup NextAuth
+#### [   ] Setup Providers
+#### [   ] Setup Navbar
+#### [   ] Theme Toggle
+#### [   ] Home Page
+#### [   ] Dashboard Page
+#### [   ] Word Cloud
+#### [   ] Create Quiz Form
+#### [   ] Game Logic Data Modelling
+#### [   ] OpenAI GPT Setup
+#### [   ] Generate Questions Endpoint
+#### [   ] Create Game Endpoint
+#### [   ] React Query & Create Game Logic
+#### [   ] MCQ Page UI
+#### [   ] Check Answer Endpoint
+#### [   ] Link Check Answer to MCQ
+#### [   ] Time Delta Calculation
+#### [   ] Open Ended Game UI
+#### [   ] Blank Answer Input Component 
+#### [   ] Finish Open Ended Game Logic
+#### [   ] Statistics Page
+#### [   ] Statistics Questions List
+#### [   ] Loading Page Logic
+#### [   ] Quiz History
+#### [   ] Word Cloud Topic Count
+#### [   ] Deploy To Vercel
