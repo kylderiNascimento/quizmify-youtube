@@ -51,7 +51,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Word Cloud
 #### [ x ] Create Quiz Form
 #### [ x ] Game Logic Data Modelling
-#### [   ] OpenAI GPT Setup
+#### [ x ] OpenAI GPT Setup
 #### [   ] Generate Questions Endpoint
 #### [   ] Create Game Endpoint
 #### [   ] React Query & Create Game Logic
