@@ -62,8 +62,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Open Ended Game UI
 #### [ x ] Blank Answer Input Component 
 #### [ x ] Finish Open Ended Game Logic
-#### [ x ] Statistics Page
-#### [ x ] Statistics Questions List
+#### [   ] Statistics Page
+#### [   ] Statistics Questions List
 #### [   ] Loading Page Logic
 #### [   ] Quiz History
 #### [   ] Word Cloud Topic Count

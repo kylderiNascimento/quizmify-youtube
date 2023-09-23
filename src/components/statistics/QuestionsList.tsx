@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
 
+import React from "react";
 import {
   Table,
   TableBody,
@@ -11,6 +11,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Question } from "@prisma/client";
+
 type Props = {
   questions: Question[];
 };

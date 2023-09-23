@@ -25,12 +25,10 @@ type Props = {
 };
 
 const OpenEnded = ({ game }: Props) => {
-
   const [hasEnded, setHasEnded] = React.useState(false);
   const [questionIndex, setQuestionIndex] = React.useState(0);
   const [blankAnswer, setBlankAnswer] = React.useState("");
   const [averagePercentage, setAveragePercentage] = React.useState(0);
-
   const currentQuestion = React.useMemo(() => {
     return game.questions[questionIndex];
   }, [questionIndex, game.questions]);
@@ -63,7 +61,6 @@ const OpenEnded = ({ game }: Props) => {
       return response.data;
     },
   });
-  
   React.useEffect(() => {
     if (!hasEnded) {
       const interval = setInterval(() => {
@@ -163,7 +160,7 @@ const OpenEnded = ({ game }: Props) => {
       <div className="flex flex-col items-center justify-center w-full mt-4">
         <BlankAnswerInput
           setBlankAnswer={setBlankAnswer}
-          answer={currentQuestion.answer}
+          answer={currentQuestion ? currentQuestion.answer : ''}
         />
         <Button
           variant="outline"

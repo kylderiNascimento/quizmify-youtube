@@ -2,7 +2,10 @@ import React from "react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Award, Trophy } from "lucide-react";
-type Props = { accuracy: number };
+
+type Props = { 
+  accuracy: number 
+};
 
 const ResultsCard = ({ accuracy }: Props) => {
   return (
