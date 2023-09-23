@@ -16,7 +16,8 @@ import { z } from "zod";
 import axios from "axios";
 import { useToast } from "./ui/use-toast";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn, formatTimeDelta } from "@/lib/utils";
+import { differenceInSeconds } from "date-fns";
 
 type Props = {
     game: Game & { questions: Pick<Question, "id" | "options" | "question">[] };
@@ -26,6 +27,7 @@ const MCQ = ({ game }: Props) => {
 
     const [questionIndex, setQuestionIndex] = React.useState(0);
     const [selectedChoice, setSelectedChoice] = React.useState<number>(0);
+    const [now, setNow] = React.useState(new Date());
     const [correctAnswers, setCorrectAnswers] = React.useState<number>(0);
     const [wrongAnswers, setWrongAnswers] = React.useState<number>(0);
     const [hasEnded, setHasEnded] = React.useState(false);
@@ -45,6 +47,15 @@ const MCQ = ({ game }: Props) => {
           return response.data;
         },
     });  
+
+    React.useEffect(() => {
+      const interval = setInterval(() => {
+        if (!hasEnded) {
+          setNow(new Date());
+        }
+      }, 1000);
+      return () => clearInterval(interval);
+    }, [hasEnded]);
 
     const handleNext = React.useCallback(() => {
         if (isChecking) return;
@@ -140,7 +151,7 @@ const MCQ = ({ game }: Props) => {
                     </p>
                     <div className="flex self-start mt-3 text-slate-400">
                         <Timer className="mr-2" />
-                        <span>00:00</span>
+                        {formatTimeDelta(differenceInSeconds(now, game.timeStarted))}
                     </div>
                     <MCQCounter
                         correct_answers={correctAnswers}
