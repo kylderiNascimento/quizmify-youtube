@@ -52,12 +52,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] Create Quiz Form
 #### [ x ] Game Logic Data Modelling
 #### [ x ] OpenAI GPT Setup
-#### [   ] Generate Questions Endpoint
-#### [   ] Create Game Endpoint
-#### [   ] React Query & Create Game Logic
-#### [   ] MCQ Page UI
-#### [   ] Check Answer Endpoint
-#### [   ] Link Check Answer to MCQ
+#### [ x ] Generate Questions Endpoint
+#### [ x ] Create Game Endpoint
+#### [ x ] React Query & Create Game Logic
+#### [ x ] MCQ Page UI
+#### [ x ] Check Answer Endpoint
+#### [ x ] Link Check Answer to MCQ
 #### [   ] Time Delta Calculation
 #### [   ] Open Ended Game UI
 #### [   ] Blank Answer Input Component 
