@@ -2,7 +2,7 @@ import { prisma } from "@/lib/db";
 import { checkAnswerSchema } from "@/schemas/questions";
 import { NextResponse } from "next/server";
 import { ZodError } from "zod";
-// import stringSimilarity from "string-similarity";
+import stringSimilarity from "string-similarity";
 
 export async function POST(req: Request, res: Response) {
   try {
@@ -37,18 +37,18 @@ export async function POST(req: Request, res: Response) {
       });
 
     } else if (question.questionType === "open_ended") {
-    //   let percentageSimilar = stringSimilarity.compareTwoStrings(
-    //     question.answer.toLowerCase().trim(),
-    //     userInput.toLowerCase().trim()
-    //   );
-    //   percentageSimilar = Math.round(percentageSimilar * 100);
-    //   await prisma.question.update({
-    //     where: { id: questionId },
-    //     data: { percentageCorrect: percentageSimilar },
-    //   });
-    //   return NextResponse.json({
-    //     percentageSimilar,
-    //   });
+      let percentageSimilar = stringSimilarity.compareTwoStrings(
+        question.answer.toLowerCase().trim(),
+        userInput.toLowerCase().trim()
+      );
+      percentageSimilar = Math.round(percentageSimilar * 100);
+      await prisma.question.update({
+        where: { id: questionId },
+        data: { percentageCorrect: percentageSimilar },
+      });
+      return NextResponse.json({
+        percentageSimilar,
+      });
     }
   } catch (error) {
     if (error instanceof ZodError) {

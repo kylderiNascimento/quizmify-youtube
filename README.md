@@ -58,12 +58,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 #### [ x ] MCQ Page UI
 #### [ x ] Check Answer Endpoint
 #### [ x ] Link Check Answer to MCQ
-#### [   ] Time Delta Calculation
-#### [   ] Open Ended Game UI
-#### [   ] Blank Answer Input Component 
-#### [   ] Finish Open Ended Game Logic
-#### [   ] Statistics Page
-#### [   ] Statistics Questions List
+#### [ x ] Time Delta Calculation
+#### [ x ] Open Ended Game UI
+#### [ x ] Blank Answer Input Component 
+#### [ x ] Finish Open Ended Game Logic
+#### [ x ] Statistics Page
+#### [ x ] Statistics Questions List
 #### [   ] Loading Page Logic
 #### [   ] Quiz History
 #### [   ] Word Cloud Topic Count
